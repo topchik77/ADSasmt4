@@ -8,6 +8,7 @@ public class WeightedGraph<V> {
         this.directed = directed;
         this.adjacencyList = new HashMap<>();
         this.vertices = new HashMap<>();
+
     }
 
     public void addEdge(V source, V destination, double weight) {
@@ -18,10 +19,9 @@ public class WeightedGraph<V> {
         adjacencyList.computeIfAbsent(sourceVertex, k -> new HashMap<>()).put(destVertex, weight);
 
         // Adding the edge if the graph undirected
-        if (!directed) {
+        if (!directed && adjacencyList.containsKey(destVertex)) {
             adjacencyList.computeIfAbsent(destVertex, k -> new HashMap<>()).put(sourceVertex, weight);
         }
-        adjacencyList.get(destVertex).put(sourceVertex, weight);
     }
 
     public void addVertex(V data) {
