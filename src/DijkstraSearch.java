@@ -4,7 +4,7 @@ public class DijkstraSearch<V> extends Search<V> {
     private Map<Vertex<V>, Double> distTo;
     private PriorityQueue<Vertex<V>> pq;
 
-    public DijkstraSearch(WeightedGraph<V> graph, V source) {
+    public DijkstraSearch(MyGraph<V> graph, V source) {
         super();
         this.distTo = new HashMap<>();
         this.pq = new PriorityQueue<>(Comparator.comparingDouble(distTo::get));

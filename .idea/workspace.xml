@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f44477d-0efd-495c-bdc0-47e1968e632c" name="Changes" comment="correct inheritance">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BreadthFirstSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DepthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DepthFirstSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DijkstraSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DijkstraSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WeightedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeightedGraph.java" afterDir="false" />
-    </list>
+    <list default="true" id="7f44477d-0efd-495c-bdc0-47e1968e632c" name="Changes" comment="added search classes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +77,7 @@
       <workItem from="1716883646785" duration="1906000" />
       <workItem from="1716952346527" duration="2007000" />
       <workItem from="1716992989523" duration="1491000" />
-      <workItem from="1717048680291" duration="13367000" />
+      <workItem from="1717048680291" duration="13755000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -102,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717075778703</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added search classes">
+      <option name="closed" value="true" />
+      <created>1717186232612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717186232612</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="correct inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct inheritance" />
+    <MESSAGE value="added search classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added search classes" />
   </component>
 </project>
